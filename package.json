@@ -1,0 +1,27 @@
+{
+  "name": "weather",
+  "version": "0.0.1",
+  "description": "Weather information",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "node start-client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjacoder21/weather.git"
+  },
+  "author": "Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninjacoder21/weather/issues"
+  },
+  "homepage": "https://github.com/ninjacoder21/weather#readme"
+}
